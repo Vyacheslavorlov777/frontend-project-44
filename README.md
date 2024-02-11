@@ -10,13 +10,13 @@ Terminal: npm ci
 
 [![asciicast](https://asciinema.org/a/row4FHmeOEiX2yTaar9VEnqCf.svg)](https://asciinema.org/a/row4FHmeOEiX2yTaar9VEnqCf)
 
-Started game:
+STARTED GAME:
 
 Terminal: brain-games
 
 [![asciicast](https://asciinema.org/a/ivzCPpyy2ts65poWQy3VEWjD8.svg)](https://asciinema.org/a/ivzCPpyy2ts65poWQy3VEWjD8)
 
-Game brain-even:
+GAME BRAIN-EVEN:
 
 Terminal: brain-even
 
@@ -26,5 +26,13 @@ Victory:
 Loss:
 [![asciicast](https://asciinema.org/a/49m9HKQk8VdxshzIPl7dWvosV.svg)](https://asciinema.org/a/49m9HKQk8VdxshzIPl7dWvosV)
 
+GAME BRAIN-CALC:
 
+Terminal: brain-calc
+
+Victory:
+[![asciicast](https://asciinema.org/a/bsLoUhSzYZQUZ3y4TGlHHOj7j.svg)](https://asciinema.org/a/bsLoUhSzYZQUZ3y4TGlHHOj7j)
+
+Loss:
+[![asciicast](https://asciinema.org/a/xdeN3UxhosGxNyHSVV3hf7lX6.svg)](https://asciinema.org/a/xdeN3UxhosGxNyHSVV3hf7lX6)
 
