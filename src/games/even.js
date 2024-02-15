@@ -1,4 +1,4 @@
-import gameBraimLogic, { repit } from '../logicBrain.js';
+import gameBrainLogic, { repit } from '../index.js';
 import getRandom from '../randomNumber.js';
 
 const isEven = (number) => number % 2 === 0;
@@ -15,5 +15,5 @@ export default function evenGame() {
   for (let i = 0; i < repit; i += 1) {
     rounds[i] = arrRound();
   }
-  return gameBraimLogic(rounds, mission);
+  return gameBrainLogic(rounds, mission);
 }

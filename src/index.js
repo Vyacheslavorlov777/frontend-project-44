@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 export const repit = 3;
 
-export default function gameBraimLogic(rounds, mission) {
+export default function gameBrainLogic(rounds, mission) {
   console.log('Welcome to the Brain Games!');
   const nameUser = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameUser}!`);
