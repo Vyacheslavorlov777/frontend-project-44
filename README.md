@@ -60,3 +60,14 @@ Victory:
 
 Loss:
 [![asciicast](https://asciinema.org/a/ZzzyHhyx8ar149RMCe8p2QNNW.svg)](https://asciinema.org/a/ZzzyHhyx8ar149RMCe8p2QNNW)
+
+
+GAME BRAIN-PRIME
+
+Terminal: brain-prime
+
+Victory:
+[![asciicast](https://asciinema.org/a/x5TnzH6r5gHyKvSNOQBLoLkEZ.svg)](https://asciinema.org/a/x5TnzH6r5gHyKvSNOQBLoLkEZ)
+
+Loss:
+[![asciicast](https://asciinema.org/a/3HO96UAy0lo1j85KsodtoPHzb.svg)](https://asciinema.org/a/3HO96UAy0lo1j85KsodtoPHzb)
