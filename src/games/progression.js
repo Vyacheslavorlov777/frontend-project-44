@@ -1,9 +1,9 @@
-import gameBrainLogic, { repit } from '../index.js';
+import Game from '../index.js';
 import getRandom from '../randomNumber.js';
 
 const mission = 'What number is missing in the progression?';
 
-const arrProgression = () => {
+const arrRound = () => {
   const arr = [getRandom(1, 10)];
   const lengthProgression = getRandom(8, 10);
   const difference = getRandom(1, 30);
@@ -20,9 +20,5 @@ const arrProgression = () => {
 };
 
 export default function progressionGame() {
-  const rounds = [];
-  for (let i = 0; i < repit; i += 1) {
-    rounds[i] = arrProgression();
-  }
-  return gameBrainLogic(rounds, mission);
+  Game(arrRound, mission);
 }

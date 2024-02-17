@@ -1,4 +1,4 @@
-import gameBrainLogic, { repit } from '../index.js';
+import Game from '../index.js';
 import getRandom from '../randomNumber.js';
 
 const mission = 'What is the result of the expression?';
@@ -31,9 +31,5 @@ const arrRound = () => {
 };
 
 export default function calcGame() {
-  const rounds = [];
-  for (let i = 0; i < repit; i += 1) {
-    rounds[i] = arrRound();
-  }
-  return gameBrainLogic(rounds, mission);
+  Game(arrRound, mission);
 }

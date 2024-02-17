@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
 
-export const repit = 3;
+const repit = 3;
 
-export default function gameBrainLogic(rounds, mission) {
+function gameBrainLogic(rounds, mission) {
   console.log('Welcome to the Brain Games!');
   const nameUser = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameUser}!`);
@@ -20,4 +20,12 @@ export default function gameBrainLogic(rounds, mission) {
     }
   }
   console.log(`Congratulations, ${nameUser}!`);
+}
+
+export default function Game(arrRound, mission) {
+  const rounds = [];
+  for (let i = 0; i < repit; i += 1) {
+    rounds[i] = arrRound();
+  }
+  return gameBrainLogic(rounds, mission);
 }

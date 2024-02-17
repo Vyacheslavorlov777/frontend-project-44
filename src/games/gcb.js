@@ -1,4 +1,4 @@
-import gameBrainLogic, { repit } from '../index.js';
+import Game from '../index.js';
 import getRandom from '../randomNumber.js';
 
 const mission = 'Find the greatest common divisor of given numbers.';
@@ -18,9 +18,5 @@ const arrRound = () => {
 };
 
 export default function gcbGaming() {
-  const rounds = [];
-  for (let i = 0; i < repit; i += 1) {
-    rounds[i] = arrRound();
-  }
-  return gameBrainLogic(rounds, mission);
+  Game(arrRound, mission);
 }
