@@ -15,7 +15,7 @@ const arrRound = () => {
   const sign = '..';
   const answerRound = String(arr[randomItem]);
   arr[randomItem] = sign;
-  const missionRound = arr.join();
+  const missionRound = arr.join(' ');
   return [missionRound, answerRound];
 };
 
