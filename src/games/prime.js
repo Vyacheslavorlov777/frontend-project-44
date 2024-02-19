@@ -1,5 +1,5 @@
-import Game from '../index.js';
-import getRandom from '../randomNumber.js';
+import launchGame from '../index.js';
+import getRandom from '../utilits.js';
 
 const mission = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -19,5 +19,5 @@ const arrRound = () => {
 };
 
 export default function primeGame() {
-  Game(arrRound, mission);
+  launchGame(arrRound, mission);
 }

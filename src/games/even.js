@@ -1,5 +1,5 @@
-import Game from '../index.js';
-import getRandom from '../randomNumber.js';
+import launchGame from '../index.js';
+import getRandom from '../utilits.js';
 
 const isEven = (number) => number % 2 === 0;
 const mission = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -11,5 +11,5 @@ const arrRound = () => {
 };
 
 export default function evenGame() {
-  Game(arrRound, mission);
+  launchGame(arrRound, mission);
 }

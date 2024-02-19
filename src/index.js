@@ -22,7 +22,7 @@ function gameBrainLogic(rounds, mission) {
   console.log(`Congratulations, ${nameUser}!`);
 }
 
-export default function Game(arrRound, mission) {
+export default function launchGame(arrRound, mission) {
   const rounds = [];
   for (let i = 0; i < repit; i += 1) {
     rounds[i] = arrRound();

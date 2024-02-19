@@ -1,5 +1,5 @@
-import Game from '../index.js';
-import getRandom from '../randomNumber.js';
+import launchGame from '../index.js';
+import getRandom from '../utilits.js';
 
 const mission = 'Find the greatest common divisor of given numbers.';
 
@@ -17,6 +17,6 @@ const arrRound = () => {
   return [missionRound, answerRound];
 };
 
-export default function gcbGaming() {
-  Game(arrRound, mission);
+export default function gcdGaming() {
+  launchGame(arrRound, mission);
 }

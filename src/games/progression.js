@@ -1,5 +1,5 @@
-import Game from '../index.js';
-import getRandom from '../randomNumber.js';
+import launchGame from '../index.js';
+import getRandom from '../utilits.js';
 
 const mission = 'What number is missing in the progression?';
 
@@ -20,5 +20,5 @@ const arrRound = () => {
 };
 
 export default function progressionGame() {
-  Game(arrRound, mission);
+  launchGame(arrRound, mission);
 }
