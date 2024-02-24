@@ -14,7 +14,7 @@ Contents:
 9) Brain-prime game;
 10) Project team.
 
-1) ### Hexlet tests and linter status:
+1) Hexlet tests and linter status:
 [![Actions Status](https://github.com/Vyacheslavorlov777/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vyacheslavorlov777/frontend-project-44/actions)
 
 2) CodeClimate:
